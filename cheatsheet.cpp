@@ -47,22 +47,22 @@ int main() {
     return 0;
 }
 
-//>> IF- ELSE IN C++
-// #include <iostream>
-// using namespace std;
+>> IF- ELSE IN C++
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int age;
-//     cin >> age;
+int main() {
+    int age;
+    cin >> age;
 
-//     if (age >= 18) {
-//         cout << "Adult";
-//     } else {
-//         cout << "Minor";
-//     }
+    if (age >= 18) {
+        cout << "Adult";
+    } else {
+        cout << "Minor";
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 //>> IF-ELSE IF-ELSE IN C++
 // #include <iostream>
