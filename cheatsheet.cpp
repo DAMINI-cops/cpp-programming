@@ -38,7 +38,7 @@ using namespace std;
 int main() {
     int a = 10, b = 3;
 
-    cout << a + b << endl;
+    cout<< a + b << endl;
     cout << a - b << endl;
     cout << a * b << endl;
     cout << a / b << endl;
@@ -47,22 +47,6 @@ int main() {
     return 0;
 }
 
->> IF- ELSE IN C++
-#include <iostream>
-using namespace std;
-
-int main() {
-    int age;
-    cin >> age;
-
-    if (age >= 18) {
-        cout << "Adult";
-    } else {
-        cout << "Minor";
-    }
-
-    return 0;
-}
 
 //>> IF-ELSE IF-ELSE IN C++
 // #include <iostream>
